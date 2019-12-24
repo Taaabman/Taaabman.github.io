@@ -157,12 +157,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 80px 100px;
-  margin: 40px 0;
+  padding: 40px 80px;
+  margin: 10px 0;
   background-color: whitesmoke;
   color: #333; }
   .project-card > .imgWrap {
-    width: 320px;
+    width: 480px;
     margin-right: 40px;
     background-color: #f8f8f8; }
     .project-card > .imgWrap > img {
@@ -173,16 +173,20 @@ body {
     flex: 1; }
     .project-card > .ctnWrap > .title {
       font-weight: 600;
-      font-size: 28px;
-      line-height: 40px; }
+      font-size: 36px;
+      line-height: 40px;
+      letter-spacing: 0.05em; }
       .project-card > .ctnWrap > .title:hover {
         opacity: 1;
         color: #f0534e; }
     .project-card > .ctnWrap > .desc {
       font-size: 16px;
+      font-weight: 200;
       line-height: 30px;
-      margin-top: 20px;
-      margin-bottom: 15px; }
+      margin-top: 10px;
+      margin-bottom: 10px;
+      opacity: .5;
+      letter-spacing: 0.05em; }
     .project-card > .ctnWrap > .sub {
       font-size: 16px;
       line-height: 30px;
@@ -224,27 +228,37 @@ body {
         width: 100%; } }
 
 .article {
-  margin: 64px 0 80px;
-  padding: 80px 100px 0;
-  background-color: white;
+  margin: 60px 0 80px;
+  padding: 80px 0px 0;
+  background-color: #fafafa;
   color: #333;
   font-size: 16px;
-  line-height: 30px; }
+  line-height: 30px;
+  text-align: center; }
   .article > .title {
-    font-size: 28px;
+    font-size: 48px;
     line-height: 40px;
-    margin-bottom: 10px;
-    font-weight: 600; }
+    margin-bottom: 40px;
+    font-weight: 600;
+    letter-spacing: 0.05em; }
   .article > .sub {
     opacity: .5;
     margin-bottom: 20px; }
   .article > .content {
     padding-bottom: 64px; }
     .article > .content h1, .article > .content h2, .article > .content h3, .article > .content h4, .article > .content h5 {
-      font-size: 24px;
+      /*font-size:24px;
       font-weight: 600;
       line-height: 40px;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+        text-align: left;*/
+      font-size: 20px;
+      font-weight: 200;
+      line-height: 30px;
+      margin-top: 20px;
+      margin-bottom: 80px;
+      letter-spacing: 0.05em;
+      opacity: .5; }
     .article > .content p {
       font-size: 16px;
       line-height: 30px;
