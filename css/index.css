@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(reset.css);
 #container {
   max-width: 1400px;
@@ -246,7 +247,7 @@ body {
     margin-bottom: 20px; }
   .article > .content {
     padding-bottom: 64px; }
-    .article > .content h1, .article > .content h2, .article > .content h3, .article > .content h4, .article > .content h5 {
+    .article > .content h2, .article > .content h3, .article > .content h4 {
       /*font-size:24px;
       font-weight: 600;
       line-height: 40px;
@@ -259,6 +260,44 @@ body {
       margin-bottom: 80px;
       letter-spacing: 0.05em;
       opacity: .5; }
+    .article > .content h1 {
+      /* 只用在了about的标题 */
+      color: darkgreen;
+      font-size: 36px;
+      margin: auto;
+      width: 980px;
+      font-weight: 600;
+      line-height: 60px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      letter-spacing: 0.05em;
+      opacity: 0.5; }
+    .article > .content h6 {
+      /* 我只用在了about的文本里面 */
+      margin: auto;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 30px;
+      margin-bottom: 15px;
+      letter-spacing: 0.06em;
+      word-spacing: 3px;
+      width: 980px;
+      opacity: .8; }
+    .article > .content h5 {
+      /* 按钮下载 */
+      margin: auto;
+      color: orangered;
+      padding: 10px;
+      border: 2px solid #f44336;
+      border-radius: 25px;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 30px;
+      margin-bottom: 15px;
+      letter-spacing: 0.06em;
+      word-spacing: 3px;
+      width: 200px;
+      opacity: 0.8; }
     .article > .content p {
       font-size: 16px;
       line-height: 30px;
