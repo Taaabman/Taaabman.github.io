@@ -75,16 +75,27 @@ body {
   #nav > .header {
     margin-bottom: 10px; }
     #nav > .header > .title {
-      font-size: 45px;
+      font-size: 40px;
       line-height: 53px;
-      color: #333;
-      font-family: MaturaScriptCapitals; }
+      letter-spacing: 0.1em;
+      font-weight: lighter;
+      color: #2C9E8D;
+      font-family: Futura, “Trebuchet MS”, Arial, sans-serif; }
       #nav > .header > .title:hover {
         opacity: .7; }
   #nav > .ctnWrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
+    #nav > .ctnWrap > .title2 {
+      font-size: 15px;
+      line-height: 21px;
+      letter-spacing: 0.2em;
+      font-weight: lighter;
+      color: #898989;
+      font-family: Futura, “Trebuchet MS”, Arial, sans-serif; }
+      #nav > .ctnWrap > .title2:hover {
+        opacity: .7; }
     #nav > .ctnWrap > .menu {
       text-align: right; }
     @media screen and (max-width: 600px) {
@@ -94,11 +105,12 @@ body {
           text-align: center;
           margin-top: 10px; } }
   #nav .nav-menu {
-    font-family: BebasNeue;
-    font-size: 20px;
-    line-height: 24px;
+    font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 15px;
+    line-height: 12px;
     color: #333;
-    margin-left: 24px; }
+    margin-left: 36px; }
     #nav .nav-menu:first-child {
       margin-left: 0; }
     #nav .nav-menu.z-active {
