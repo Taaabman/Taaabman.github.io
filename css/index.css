@@ -259,7 +259,7 @@ body {
     margin-bottom: 20px; }
   .article > .content {
     padding-bottom: 64px; }
-    .article > .content h2, .article > .content h3, .article > .content h4 {
+    .article > .content h2 {
       /*font-size:24px;
       font-weight: 600;
       line-height: 40px;
@@ -274,27 +274,17 @@ body {
       opacity: .5; }
     .article > .content h1 {
       /* 只用在了about的标题 */
-      color: darkgreen;
-      font-size: 36px;
+      font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+      color: #333;
+      opacity: 0.7;
+      font-size: 28px;
       margin: auto;
       width: 980px;
-      font-weight: 600;
-      line-height: 60px;
+      font-weight: 500;
+      line-height: 50px;
       margin-top: 20px;
       margin-bottom: 20px;
-      letter-spacing: 0.05em;
-      opacity: 0.5; }
-    .article > .content h6 {
-      /* 我只用在了about的文本里面 */
-      margin: auto;
-      font-size: 16px;
-      font-weight: 600;
-      line-height: 30px;
-      margin-bottom: 15px;
-      letter-spacing: 0.06em;
-      word-spacing: 3px;
-      width: 980px;
-      opacity: .8; }
+      letter-spacing: 0.05em; }
     .article > .content h5 {
       /* 按钮下载 */
       margin: auto;
@@ -310,6 +300,38 @@ body {
       word-spacing: 3px;
       width: 200px;
       opacity: 0.8; }
+    .article > .content h6 {
+      /* 我只用在了about的文本里面 */
+      margin: auto;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 30px;
+      margin-bottom: 15px;
+      letter-spacing: 0.06em;
+      word-spacing: 3px;
+      width: 980px;
+      opacity: .8; }
+    .article > .content h3 {
+      /* 只用在了底部导航栏（写在了每个项目的markdown文件里）由于是超链接，颜色不起作用 */
+      font-family: Futura, “Trebuchet MS”, Arial, sans-serif;
+      color: #2C9E8D;
+      opacity: 0.7;
+      font-size: 20px;
+      margin: auto;
+      width: 1920px;
+      font-weight: 500;
+      line-height: 50px;
+      margin-top: 60px;
+      margin-bottom: 20px;
+      letter-spacing: 0.05em; }
+    .article > .content h4 {
+      font-size: 20px;
+      font-weight: 200;
+      line-height: 30px;
+      margin-top: 80px;
+      margin-bottom: 20px;
+      letter-spacing: 0.05em;
+      opacity: .5; }
     .article > .content p {
       font-size: 16px;
       line-height: 30px;
